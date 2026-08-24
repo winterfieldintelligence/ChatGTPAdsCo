@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Start Advertising with ChatGTP Ads Co." />
+  <title>Start Advertising — ChatGTP Ads Co.</title>
+  <link rel="icon" type="image/png" href="assets/calogo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .form-page{min-height:calc(100vh - 72px);background:#fff;color:#000;display:flex;align-items:center;justify-content:center;padding:80px 24px 100px}
+    .form-card{width:min(100%,620px)}
+    .form-eyebrow{font-size:13px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:#888;margin:0 0 18px}
+    .form-card h1{margin:0 0 12px;font-size:clamp(30px,3.5vw,44px);font-weight:500;letter-spacing:-.055em;line-height:1.06;color:#000}
+    .form-subtext{margin:0 0 48px;font-size:16px;color:#555;letter-spacing:-.025em;line-height:1.5}
+    .form-group{display:flex;flex-direction:column;gap:6px;margin-bottom:28px}
+    .form-group label{font-size:15px;font-weight:500;letter-spacing:-.02em;color:#111}
+    .form-group input,.form-group select{width:100%;height:52px;padding:0 16px;border:1.5px solid #ddd;border-radius:10px;background:#fafafa;font-family:inherit;font-size:16px;letter-spacing:-.02em;color:#000;outline:none;transition:border-color 160ms ease,background 160ms ease;appearance:none;-webkit-appearance:none}
+    .form-group select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23777' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;padding-right:42px;cursor:pointer}
+    .form-group input:focus,.form-group select:focus{border-color:#000;background:#fff}
+    .form-group input::placeholder{color:#bbb}
+    .radio-group{display:flex;gap:12px;flex-wrap:wrap}
+    .radio-option{flex:1;min-width:120px}
+    .radio-option input[type=radio]{position:absolute;opacity:0;width:0;height:0}
+    .radio-option label{display:flex;align-items:center;justify-content:center;height:52px;border:1.5px solid #ddd;border-radius:10px;background:#fafafa;font-size:15px;font-weight:400;letter-spacing:-.02em;color:#444;cursor:pointer;transition:border-color 160ms ease,background 160ms ease,color 160ms ease}
+    .radio-option input[type=radio]:checked+label{border-color:#000;background:#000;color:#fff;font-weight:500}
+    .radio-option label:hover{border-color:#888}
+    .form-divider{height:1px;background:#eee;margin:36px 0}
+    .form-submit{width:100%;height:56px;border:none;border-radius:999px;background:#000;color:#fff;font-family:inherit;font-size:17px;font-weight:500;letter-spacing:-.03em;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:10px;transition:background 160ms ease,transform 160ms ease;margin-top:12px}
+    .form-submit:hover{background:#252525;transform:translateY(-1px)}
+    .form-submit:active{transform:translateY(0)}
+    .form-success{display:none;text-align:center;padding:48px 0}
+    .form-success .success-icon{width:64px;height:64px;border-radius:50%;background:#000;color:#fff;display:flex;align-items:center;justify-content:center;margin:0 auto 24px;font-size:28px}
+    .form-success h2{margin:0 0 12px;font-size:clamp(26px,3vw,34px);font-weight:500;letter-spacing:-.05em}
+    .form-success p{margin:0;font-size:16px;color:#555;letter-spacing:-.02em;line-height:1.55}
+    .form-success .back-link{display:inline-flex;align-items:center;gap:8px;margin-top:36px;padding:0 24px;height:48px;border-radius:999px;background:#000;color:#fff;font-size:15px;letter-spacing:-.02em;text-decoration:none;transition:background 160ms ease}
+    .form-success .back-link:hover{background:#252525}
+    .privacy-note{margin-top:20px;font-size:13px;color:#aaa;letter-spacing:-.01em;text-align:center;line-height:1.5}
+    .privacy-note a{color:#888;text-decoration:underline;text-underline-offset:2px}
+    @media(max-width:600px){.form-page{padding:56px 20px 80px;align-items:flex-start}.form-card h1{font-size:30px}.form-subtext{margin-bottom:36px}.radio-group{flex-direction:column}.radio-option{min-width:0}}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="ChatGTP Ads Co. home">ChatGTP Ads Co.</a>
+    <nav id="primary-navigation" class="main-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="startad.html" aria-current="page">Start Advertising</a>
+      <a href="casestudies.html">Case Studies</a>
+    </nav>
+    <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-navigation">
+      <span></span><span></span>
+    </button>
+    <a class="cta" href="startad.html">Start Advertising</a>
+  </header>
+
+  <main class="form-page">
+    <div class="form-card">
+      <p class="form-eyebrow">Get Started</p>
+      <h1>Tell us about your business.</h1>
+      <p class="form-subtext">Fill in the details below and we will be in touch to help get your business discovered through ChatGPT Ads.</p>
+
+      <form id="startad-form" action="https://formspree.io/f/mkjwlglk" method="POST" novalidate>
+        <input type="hidden" name="_subject" value="New Start Advertising Enquiry - ChatGTP Ads Co." />
+
+        <div class="form-group">
+          <label for="business-name">Business Name <span style="color:#e33">*</span></label>
+          <input type="text" id="business-name" name="Business Name" placeholder="e.g. Acme Coffee Co." required autocomplete="organization" />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address <span style="color:#e33">*</span></label>
+          <input type="email" id="email" name="Email" placeholder="e.g. hello@yourbusiness.com" required autocomplete="email" />
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number <span style="color:#e33">*</span></label>
+          <input type="tel" id="phone" name="Phone Number" placeholder="e.g. +1 234 567 8900" required autocomplete="tel" />
+        </div>
+
+        <div class="form-group">
+          <label for="industry">Industry <span style="color:#e33">*</span></label>
+          <select id="industry" name="Industry" required>
+            <option value="" disabled selected>Select your industry</option>
+            <option>E-commerce / Retail</option>
+            <option>Food &amp; Beverage</option>
+            <option>Health &amp; Wellness</option>
+            <option>Beauty &amp; Personal Care</option>
+            <option>Travel &amp; Hospitality</option>
+            <option>Real Estate</option>
+            <option>Finance &amp; Insurance</option>
+            <option>Technology / SaaS</option>
+            <option>Education &amp; Training</option>
+            <option>Professional Services</option>
+            <option>Home Services</option>
+            <option>Automotive</option>
+            <option>Fashion &amp; Apparel</option>
+            <option>Entertainment &amp; Media</option>
+            <option>Non-Profit</option>
+            <option>Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="country">Country <span style="color:#e33">*</span></label>
+          <select id="country" name="Country" required>
+            <option value="" disabled selected>Select your country</option>
+            <option>United Arab Emirates</option>
+            <option>United States</option>
+            <option>United Kingdom</option>
+            <option>India</option>
+            <option>Canada</option>
+            <option>Australia</option>
+            <option>Saudi Arabia</option>
+            <option>Qatar</option>
+            <option>Kuwait</option>
+            <option>Bahrain</option>
+            <option>Oman</option>
+            <option>Singapore</option>
+            <option>Germany</option>
+            <option>France</option>
+            <option>Netherlands</option>
+            <option>South Africa</option>
+            <option>Nigeria</option>
+            <option>Pakistan</option>
+            <option>Bangladesh</option>
+            <option>Philippines</option>
+            <option>New Zealand</option>
+            <option>Ireland</option>
+            <option>Other</option>
+          </select>
+        </div>
+
+        <div class="form-divider"></div>
+
+        <div class="form-group">
+          <label>Do you have an OpenAI ChatGTP Ads Account? <span style="color:#e33">*</span></label>
+          <div class="radio-group">
+            <div class="radio-option">
+              <input type="radio" id="openai-yes" name="Has OpenAI ChatGTP Ads Account" value="Yes" required />
+              <label for="openai-yes">Yes, I do</label>
+            </div>
+            <div class="radio-option">
+              <input type="radio" id="openai-no" name="Has OpenAI ChatGTP Ads Account" value="No" />
+              <label for="openai-no">No, I do not</label>
+            </div>
+            <div class="radio-option">
+              <input type="radio" id="openai-unsure" name="Has OpenAI ChatGTP Ads Account" value="Not sure" />
+              <label for="openai-unsure">Not sure</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Are you running any digital marketing or Google Ads? <span style="color:#e33">*</span></label>
+          <div class="radio-group">
+            <div class="radio-option">
+              <input type="radio" id="digital-yes" name="Running Digital Marketing or Google Ads" value="Yes" required />
+              <label for="digital-yes">Yes, actively</label>
+            </div>
+            <div class="radio-option">
+              <input type="radio" id="digital-no" name="Running Digital Marketing or Google Ads" value="No" />
+              <label for="digital-no">No, not yet</label>
+            </div>
+            <div class="radio-option">
+              <input type="radio" id="digital-past" name="Running Digital Marketing or Google Ads" value="In the past" />
+              <label for="digital-past">In the past</label>
+            </div>
+          </div>
+        </div>
+
+        <p id="form-error" style="display:none;color:#c0392b;font-size:14px;margin:-12px 0 16px;letter-spacing:-.01em;"></p>
+
+        <button type="submit" class="form-submit" id="submit-btn">Continue &#8594;</button>
+
+        <p class="privacy-note">
+          Your information is kept private and will only be used to respond to your enquiry.
+          Read our <a href="privacy-policy.html">Privacy Policy</a>.
+        </p>
+      </form>
+
+      <div class="form-success" id="form-success" aria-live="polite">
+        <div class="success-icon">&#10003;</div>
+        <h2>Thanks! We will be in touch.</h2>
+        <p>We have received your details and will reach out shortly to help get your business discovered through ChatGPT Ads.</p>
+        <a href="index.html" class="back-link">&#8592; Back to home</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html">ChatGTP Ads Co.</a>
+        <p>Meaningful discovery through conversations.</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <p class="footer-label">Explore</p>
+          <a href="index.html">Home</a>
+          <a href="startad.html">Start Advertising</a>
+          <a href="casestudies.html">Case Studies</a>
+        </div>
+        <div>
+          <p class="footer-label">Company</p>
+          <a href="privacy-policy.html">Privacy</a>
+          <a href="startad.html">Start Advertising</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 ChatGTP Ads Co.</span>
+      <a href="privacy-policy.html">Privacy</a>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+  <script>
+    (function(){
+      var form=document.getElementById("startad-form");
+      var successBox=document.getElementById("form-success");
+      var errorMsg=document.getElementById("form-error");
+      var submitBtn=document.getElementById("submit-btn");
+      if(!form)return;
+      form.addEventListener("submit",function(e){
+        e.preventDefault();
+        errorMsg.style.display="none";
+        var bn=form.querySelector("[name='Business Name']").value.trim();
+        var em=form.querySelector("[name='Email']").value.trim();
+        var ph=form.querySelector("[name='Phone Number']").value.trim();
+        var ind=form.querySelector("[name='Industry']").value;
+        var ctr=form.querySelector("[name='Country']").value;
+        var oai=form.querySelector("[name='Has OpenAI ChatGTP Ads Account']:checked");
+        var dig=form.querySelector("[name='Running Digital Marketing or Google Ads']:checked");
+        if(!bn){showError("Please enter your business name.");form.querySelector("[name='Business Name']").focus();return;}
+        if(!em||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em)){showError("Please enter a valid email address.");form.querySelector("[name='Email']").focus();return;}
+        if(!ph){showError("Please enter your phone number.");form.querySelector("[name='Phone Number']").focus();return;}
+        if(!ind){showError("Please select your industry.");form.querySelector("[name='Industry']").focus();return;}
+        if(!ctr){showError("Please select your country.");form.querySelector("[name='Country']").focus();return;}
+        if(!oai){showError("Please answer whether you have a ChatGTP Ads Account.");return;}
+        if(!dig){showError("Please answer whether you are running digital marketing.");return;}
+        submitBtn.textContent="Sending...";
+        submitBtn.disabled=true;
+        fetch(form.action,{method:"POST",body:new FormData(form),headers:{"Accept":"application/json"}})
+        .then(function(res){
+          if(res.ok){form.style.display="none";successBox.style.display="block";}
+          else{return res.json().then(function(j){throw new Error(j.error||"Submission failed.");});}
+        })
+        .catch(function(err){
+          submitBtn.innerHTML="Continue &#8594;";
+          submitBtn.disabled=false;
+          showError(err.message||"Something went wrong. Please try again.");
+        });
+      });
+      function showError(msg){errorMsg.textContent=msg;errorMsg.style.display="block";errorMsg.scrollIntoView({behavior:"smooth",block:"nearest"});}
+    })();
+  </script>
+</body>
+</html>
